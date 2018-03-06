@@ -1,0 +1,83 @@
+
+# Compiled source #
+###################
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Dependencies #
+################
+
+bower_components/
+node_modules/
+vendor/
+
+# Logs and databases #
+######################
+
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.nfs*
+
+# IDE #
+#######
+
+.idea
+.vscode
+
+# Config #
+##########
+
+.env
+
+# Zend Framework #
+##################
+
+config/autoload/*local*
+!config/autoload/*local*.dist
+
+# Sonarlint #
+#############
+
+.scannerwork
+
+# PHPCodeSniffer v2 #
+#####################
+
+.php_cs.cache
+
+# Downloaded Media Files #
+##########################
+
+media/*
+!media/.gitkeep
